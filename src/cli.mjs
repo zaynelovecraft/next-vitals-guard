@@ -64,7 +64,7 @@ const totalGzipKb = +files.reduce((sum, f) => sum + f.gzipKb, 0).toFixed(1);
 const offenders = files.filter((f) => f.gzipKb > maxChunkKb);
 
 console.log(`\n${BOLD}Next.js Client Bundle Budget${RESET} ${DIM}(${chunksDir})${RESET}\n`);
-console.log(`${BOLD}%-38s %10s %10s${RESET}`, "CHUNK", "RAW", "GZIP");
+console.log(`${BOLD}${"CHUNK".padEnd(38)} ${"RAW".padStart(10)} ${"GZIP".padStart(10)}${RESET}`);
 console.log(`${DIM}${"-".repeat(62)}${RESET}`);
 
 for (const f of files.slice(0, 10)) {

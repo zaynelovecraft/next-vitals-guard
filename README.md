@@ -1,6 +1,11 @@
 # next-vitals-guard ⚡
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Article](https://img.shields.io/badge/Deep_Dive-Read_Post-10b981)](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)
+
 Zero-dependency Next.js client bundle & Core Web Vitals CI gate. Scans `.next/static/chunks`, measures real gzipped transfer size for every client chunk, and fails CI when a stray `"use client"` import blows your INP / LCP budget.
+
+> 📖 **Read the full engineering breakdown:** [Generative Engine Optimization (GEO) & CWV Gates in Next.js](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)
 
 ```text
 $ npx github:zaynelovecraft/next-vitals-guard --max-kb=220 --max-chunk-kb=85
