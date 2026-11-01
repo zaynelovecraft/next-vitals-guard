@@ -29,7 +29,7 @@ if (args.includes("--help") || args.includes("-h")) {
   console.log(`${BOLD}next-vitals-guard${RESET} — Next.js client JS & CWV budget gate
 
 ${BOLD}Usage:${RESET}
-  npx next-vitals-guard [.next] [--max-kb=220] [--max-chunk-kb=95]`);
+  npx github:zaynelovecraft/next-vitals-guard [.next] [--max-kb=220] [--max-chunk-kb=95]`);
   process.exit(0);
 }
 
