@@ -1,10 +1,14 @@
 {
   "name": "next-vitals-guard",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Zero-dependency Next.js App Router bundle & Core Web Vitals budget gate — catches client chunk bloat before it tanks your Lighthouse score",
   "type": "module",
   "bin": {
     "next-vitals-guard": "./src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "test": "node --test"
   },
   "keywords": ["nextjs", "performance", "core-web-vitals", "lighthouse", "bundle-size", "ci"],
   "author": "Zayne Lovecraft",

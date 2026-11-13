@@ -49,6 +49,7 @@ It shows the 10 largest chunks. It exits with `0` when everything is within budg
 | `[dir]` (first argument) | `.next` | Path to the build folder |
 | `--max-kb=<n>` | `220` | Budget for all client JS combined (gzipped kB) |
 | `--max-chunk-kb=<n>` | `95` | Budget for any single chunk (gzipped kB) |
+| `--json` | `false` | Print full chunk metrics and pass/fail status as JSON |
 | `NEXT_MAX_GZIP_KB` env var | | Alternative way to set `--max-kb` |
 
 **Picking a budget:** run it once with no flags to see your current numbers, then set the budget a little above them. That way any meaningful increase fails the build.
