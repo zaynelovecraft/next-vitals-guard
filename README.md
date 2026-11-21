@@ -1,5 +1,7 @@
 # next-vitals-guard ⚡
 
+[![CI](https://github.com/zaynelovecraft/next-vitals-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/zaynelovecraft/next-vitals-guard/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/zaynelovecraft/next-vitals-guard)](https://github.com/zaynelovecraft/next-vitals-guard/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Article](https://img.shields.io/badge/Deep_Dive-Read_Post-10b981)](https://www.zaynelovecraft.com/articles/generative-engine-optimization-geo-audit-nextjs-cwv)
 
